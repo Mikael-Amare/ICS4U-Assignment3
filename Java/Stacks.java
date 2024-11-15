@@ -1,9 +1,9 @@
-/*
+/**
 * This program creates and checks stats of different triangles.
 *
-* @author  Cristiano Sellitto
+* @author  Mikael Amare
 * @version 1.0
-* @since   2024-04-18
+* @since   2024-11-14
 */
 
 import java.text.DecimalFormat;

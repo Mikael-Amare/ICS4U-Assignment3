@@ -1,3 +1,11 @@
+/**
+* This class creates a triangle
+*
+* @author  Mikael Amare
+* @version 1.0
+* @since   2024-11-14
+*/
+
 import { Triangle } from './Triangle'
 
 console.log('')

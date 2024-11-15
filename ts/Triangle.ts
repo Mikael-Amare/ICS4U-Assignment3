@@ -2,9 +2,9 @@
 *
 * This class creates a triangle
 *
-* By:      Cristiano Sellitto
-* Version: 1.0
-* Since:   2024-04-16
+* @author  Mikael Amare
+* @version 1.0
+* @since   2024-11-14
 */
 
 export class Triangle {
