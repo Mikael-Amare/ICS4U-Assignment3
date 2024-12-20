@@ -1,4 +1,4 @@
-/**
+/*
 * This program creates and checks stats of different triangles.
 *
 * @author  Mikael Amare

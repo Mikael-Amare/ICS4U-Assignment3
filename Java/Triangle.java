@@ -1,4 +1,4 @@
-/**
+/*
 * This class creates a triangle
 *
 * @author  Mikael Amare
@@ -38,7 +38,8 @@ public class Triangle {
      * @param startTwo side b of the triangle
      * @param startThree side c of the triangle
     */
-    public Triangle(double startOne, double startTwo, double startThree) {
+    public Triangle(final double startOne,
+        final double startTwo, final double startThree) {
         this.lengthOne = startOne;
         this.lengthTwo = startTwo;
         this.lengthThree = startThree;
@@ -175,7 +176,7 @@ public class Triangle {
      * @param angleNumber used to see which angle to calculate
      * @return the angle in radians
      */
-    public double angle(int angleNumber) {
+    public double angle(final int angleNumber) {
         double angle = -1;
         if (this.isValid()) {
             final int finalNumber = 3;
@@ -221,7 +222,7 @@ public class Triangle {
      * @param sideNumber that determines what height is calculated
      * @return the height of the triangle
      */
-    public double height(int sideNumber) {
+    public double height(final int sideNumber) {
         double height = -1;
         if (this.isValid()) {
             final int finalNumber = 3;
